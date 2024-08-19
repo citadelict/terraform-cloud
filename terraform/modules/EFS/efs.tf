@@ -18,6 +18,7 @@ resource "aws_kms_key" "citatech-kms" {
 EOF
 }
 
+
 # create key alias
 resource "aws_kms_alias" "alias" {
   name          = "alias/kms"
