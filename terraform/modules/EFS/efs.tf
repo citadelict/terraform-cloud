@@ -9,7 +9,7 @@ resource "aws_kms_key" "citatech-kms" {
     {
       "Sid": "Enable IAM User Permissions",
       "Effect": "Allow",
-      "Principal": { "AWS": "arn:aws:iam::${var.account_no}:user/terraform" },
+      "Principal": { "AWS": "arn:aws:iam::010028775188:user/terraform" },
       "Action": "kms:*",
       "Resource": "*"
     }
