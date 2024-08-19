@@ -5,18 +5,9 @@ variable "ami-jenkins" {
   type        = string
   description = "ami for jenkins"
 }
-variable "ami-bastion" {
-  type        = string
-  description = "ami for bastion"
-}
-variable "ami-nginx" {
-  type        = string
-  description = "ami for nginx"
-}
-variable "ami-web" {
-  type        = string
-  description = "ami for webservers"
-}
+
+
+
 variable "ami-jfrog" {
   type        = string
   description = "ami for jfrog"

@@ -23,11 +23,11 @@ ami-nginx = "ami-05f47d34a1904d95e"
 
 ami-web = "ami-09a5b16ac0a59f541"
 
-# ami-jenkins = ""
+# ami-jenkins = "ami-0c05e0b2b171bc06f"
 
-# ami-sonar = ""
+ami-sonar = "ami-08b7c45fdd089df46"
 
-# ami-jfrog = ""
+# ami-jfrog = "ami-08b7c45fdd089df46"
 
 keypair = "ami"
 
