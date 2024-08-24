@@ -29,7 +29,7 @@ ami-sonar = "ami-08b7c45fdd089df46"
 
 # ami-jfrog = "ami-08b7c45fdd089df46"
 
-keypair = "ami"
+keypair = "terra"
 
 # Ensure to change this to your acccount number
 
