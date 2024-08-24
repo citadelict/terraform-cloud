@@ -36,8 +36,9 @@
      enabled: yes
   notify: Restart httpd
 
-- import_tasks: setup-site.yml
 # tasks file for webserver
+- import_tasks: setup-site.yml
+
 
 - import_tasks: setup-db.yml
 
